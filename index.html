@@ -19,24 +19,22 @@
 <meta name="twitter:description" content="Thoughtfully designed, editable pregnancy education resources for professionals." />
 <meta name="theme-color" content="#F26A8D" />
 
-<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Poppins:wght@300;400;500;600&family=Pacifico&display=swap" rel="stylesheet" />
-
 <link rel="stylesheet" href="assets/css/style.css" />
 
-<!-- Structured data -->
+<!-- Organization Schema -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"Organization",
-  "name":"WithMomma",
-  "url":"[WITHMOMMA DOMAIN]",
-  "logo":"[WITHMOMMA DOMAIN]/assets/logo.png",
-  "email":"withmomma@gmail.com",
-  "description":"Pregnancy education resources for midwives, doulas, and pregnancy professionals.",
-  "sameAs":[
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "WithMomma",
+  "url": "[WITHMOMMA DOMAIN]",
+  "logo": "[WITHMOMMA DOMAIN]/assets/logo.png",
+  "email": "withmomma@gmail.com",
+  "description": "Pregnancy education resources for midwives, doulas, and pregnancy professionals.",
+  "sameAs": [
     "https://www.instagram.com/with.momma",
     "https://www.threads.com/@with.momma",
     "https://pin.it/4iygYvV2D",
@@ -46,17 +44,14 @@
   ]
 }
 </script>
+
+<!-- WebSite Schema -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"WebSite",
-  "name":"WithMomma",
-  "url":"[WITHMOMMA DOMAIN]",
-  "potentialAction":{
-    "@type":"SearchAction",
-    "target":"[WITHMOMMA DOMAIN]/?s={search_term_string}",
-    "query-input":"required name=search_term_string"
-  }
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "WithMomma",
+  "url": "[WITHMOMMA DOMAIN]"
 }
 </script>
 </head>
@@ -64,15 +59,13 @@
 <a class="skip-link" href="#main">Skip to content</a>
 
 <!-- ============ NAV ============ -->
-<header class="nav" id="site-nav">
+<header class="nav">
   <div class="container nav__inner">
     <a href="index.html" class="nav__logo" aria-label="WithMomma home">
-      <span class="script">with</span>
-      <span class="wordmark">momma</span>
+      <span class="script">with</span><span class="wordmark">momma</span>
     </a>
-
     <nav class="nav__menu" aria-label="Primary">
-      <a href="index.html">Home</a>
+      <a href="index.html" class="is-active">Home</a>
       <a href="pregnancy-resources.html">Pregnancy Resources</a>
       <a href="professional-resources.html">Professional Resources</a>
       <a href="free-resources.html">Free Resources</a>
@@ -80,10 +73,7 @@
       <a href="about.html">About WithMomma</a>
       <a class="btn btn--primary btn--sm nav__cta" href="shop.html">Shop</a>
     </nav>
-
-    <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
-      <span></span>
-    </button>
+    <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
   </div>
 </header>
 
@@ -97,7 +87,7 @@
       <h1>Pregnancy Education Resources for <em>Midwives, Doulas</em> &amp; Pregnancy Professionals</h1>
       <p class="hero__sub lead">Thoughtfully designed, editable resources to help you educate, support, and empower the families in your care — without starting from scratch.</p>
       <div class="btn-row">
-        <a href="professional-resources.html" class="btn btn--primary">Explore Resources</a>
+        <a href="resources/" class="btn btn--primary">Explore Resources</a>
         <a href="about.html" class="btn btn--outline">Meet WithMomma</a>
       </div>
     </div>
@@ -151,7 +141,7 @@
           <li>Deliver education that feels as professional as your care</li>
         </ul>
         <div class="btn-row">
-          <a href="professional-resources.html" class="btn btn--primary">Explore Our Resources</a>
+          <a href="resources/" class="btn btn--primary">Explore All 14 Resources</a>
         </div>
       </div>
       <div class="split__media split__media--beige reveal">
@@ -160,7 +150,7 @@
           <div>
             <div class="book__rule"></div>
             <p class="book__title">The WithMomma Collection</p>
-            <p class="book__tag" style="margin-top:.7rem">Editable · Client-Ready</p>
+            <p class="book__tag" style="margin-top:.7rem">14 Editable Resources · PLR-Ready</p>
           </div>
         </div>
       </div>
@@ -184,42 +174,36 @@
         <p>Resources for preconception and pregnancy preparation.</p>
         <span class="link">Explore</span>
       </a>
-
       <a class="card cat-card reveal" href="early-pregnancy.html">
         <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
         <h3>Early Pregnancy</h3>
         <p>Resources covering early pregnancy education.</p>
         <span class="link">Explore</span>
       </a>
-
       <a class="card cat-card reveal" href="pregnancy-nutrition.html">
         <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2s6 6 6 12a6 6 0 1 1-12 0c0-6 6-12 6-12z"/></svg></div>
         <h3>Pregnancy Nutrition</h3>
         <p>Resources covering pregnancy nutrition education.</p>
         <span class="link">Explore</span>
       </a>
-
       <a class="card cat-card reveal" href="prenatal-education.html">
         <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
         <h3>Prenatal Education</h3>
         <p>Resources supporting prenatal education and client communication.</p>
         <span class="link">Explore</span>
       </a>
-
       <a class="card cat-card reveal" href="midwife-resources.html">
         <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
         <h3>Midwife Resources</h3>
         <p>Resources specifically relevant to midwives.</p>
         <span class="link">Explore</span>
       </a>
-
       <a class="card cat-card reveal" href="doula-resources.html">
         <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M15 20a5 5 0 0 1 6-4.9"/></svg></div>
         <h3>Doula Resources</h3>
         <p>Resources specifically relevant to doulas.</p>
         <span class="link">Explore</span>
       </a>
-
       <a class="card cat-card reveal" href="pregnancy-health-coach-resources.html">
         <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 12a8 8 0 1 0-16 0c0 4 3 7 8 7s8-3 8-7z"/><path d="M12 9v3"/></svg></div>
         <h3>Pregnancy Health Coach Resources</h3>
@@ -230,87 +214,99 @@
   </div>
 </section>
 
-<!-- ============ FEATURED PRODUCTS ============ -->
+<!-- ============ FEATURED PRODUCTS (6) ============ -->
 <section class="section">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Featured Resources</span>
-      <h2>Start with a WithMomma favorite</h2>
-      <p>Editable, professional-grade resources ready to customize in Canva for your practice and your clients.</p>
+      <h2>Six favorites to start your collection</h2>
+      <p>Editable, professional-grade resources ready to customize in Canva for your practice and your clients — from preconception to birth.</p>
     </div>
 
     <div class="grid grid-3">
+
       <article class="product-card reveal">
-        <div class="product-card__media">
+        <div class="product-card__media" style="background:linear-gradient(160deg,#E8A94A,#B87A1F);color:#fff">
+          <div class="book__brand"><span class="script">with</span><strong>momma</strong></div>
+          <div><div class="book__rule"></div><p class="book__title">Knowing the Best Time to Get Pregnant</p></div>
+        </div>
+        <div class="product-card__body">
+          <h3>Knowing the Best Time to Get Pregnant</h3>
+          <p class="product-card__meta">42 Pages · PLR · Canva Free</p>
+          <p>A calm, evidence-based guide to fertility, cycles, and the fertile window.</p>
+          <a href="resources/knowing-the-best-time-to-get-pregnant.html" class="product-card__cta">View Resource</a>
+        </div>
+      </article>
+
+      <article class="product-card reveal">
+        <div class="product-card__media" style="background:linear-gradient(160deg,#F5EDE7,#FAD4DC);color:var(--ink)">
           <div class="book__brand"><span class="script">with</span><strong>momma</strong></div>
           <div><div class="book__rule"></div><p class="book__title">Healthy Pregnancy Planning</p></div>
         </div>
         <div class="product-card__body">
-          <h3>Healthy Pregnancy Planning eBook Canva Template</h3>
+          <h3>Healthy Pregnancy Planning eBook</h3>
           <p class="product-card__meta">55 Pages · PLR · Canva Free</p>
-          <p>A complete, editable pregnancy planning ebook for coaches, midwives, and educators.</p>
+          <p>A complete ebook on preconception health and pregnancy preparation.</p>
           <a href="resources/healthy-pregnancy-planning-ebook.html" class="product-card__cta">View Resource</a>
         </div>
       </article>
 
       <article class="product-card reveal">
-        <div class="product-card__media">
+        <div class="product-card__media" style="background:linear-gradient(160deg,#F0A882,#C77552);color:#fff">
           <div class="book__brand"><span class="script">with</span><strong>momma</strong></div>
-          <div><div class="book__rule"></div><p class="book__title">Early Signs of Pregnancy</p></div>
+          <div><div class="book__rule"></div><p class="book__title">The First Trimester</p></div>
         </div>
         <div class="product-card__body">
-          <h3>Early Signs of Pregnancy eBook Canva Template</h3>
-          <p class="product-card__meta">Editable · Canva · Client-Ready</p>
-          <p>Support clients through the first weeks with a clear, reassuring educational resource.</p>
-          <a href="resources/early-signs-of-pregnancy-ebook.html" class="product-card__cta">View Resource</a>
+          <h3>The First Trimester eBook</h3>
+          <p class="product-card__meta">74 Pages · PLR · Canva Free</p>
+          <p>A complete guide to weeks 1–12 — physical, emotional, and practical.</p>
+          <a href="resources/the-first-trimester-ebook.html" class="product-card__cta">View Resource</a>
         </div>
       </article>
 
       <article class="product-card reveal">
-        <div class="product-card__media">
+        <div class="product-card__media" style="background:linear-gradient(160deg,#7BAE7F,#4A7B50);color:#fff">
           <div class="book__brand"><span class="script">with</span><strong>momma</strong></div>
           <div><div class="book__rule"></div><p class="book__title">Pregnancy Nutrition Guide</p></div>
         </div>
         <div class="product-card__body">
           <h3>Pregnancy Nutrition Guide</h3>
-          <p class="product-card__meta">Editable · Canva · Educational</p>
-          <p>A calm, evidence-informed nutrition resource designed for client education.</p>
+          <p class="product-card__meta">28 Pages · PLR · Canva Free</p>
+          <p>A calm, evidence-informed nutrition resource for client education.</p>
           <a href="resources/pregnancy-nutrition-guide.html" class="product-card__cta">View Resource</a>
         </div>
       </article>
 
       <article class="product-card reveal">
-        <div class="product-card__media">
+        <div class="product-card__media" style="background:linear-gradient(160deg,#B5A5C4,#7A6B8F);color:#fff">
           <div class="book__brand"><span class="script">with</span><strong>momma</strong></div>
-          <div><div class="book__rule"></div><p class="book__title">Pregnancy Planner</p></div>
+          <div><div class="book__rule"></div><p class="book__title">Weekly Pregnancy Planner</p></div>
         </div>
         <div class="product-card__body">
-          <h3>Pregnancy Planner</h3>
-          <p class="product-card__meta">Editable · Canva · Printable</p>
-          <p>A beautifully organized planner to support clients through every trimester.</p>
-          <a href="resources/pregnancy-planner.html" class="product-card__cta">View Resource</a>
+          <h3>Weekly Pregnancy Planner</h3>
+          <p class="product-card__meta">42 Pages · PLR · Canva Free</p>
+          <p>Track each week of pregnancy — practical and keepsake.</p>
+          <a href="resources/weekly-pregnancy-planner.html" class="product-card__cta">View Resource</a>
         </div>
       </article>
 
       <article class="product-card reveal">
-        <div class="product-card__media">
+        <div class="product-card__media" style="background:linear-gradient(160deg,#8DB4B4,#4A7A7A);color:#fff">
           <div class="book__brand"><span class="script">with</span><strong>momma</strong></div>
-          <div><div class="book__rule"></div><p class="book__title">Sex &amp; Intimacy in Pregnancy</p></div>
+          <div><div class="book__rule"></div><p class="book__title">Hospital Bag Checklist</p></div>
         </div>
         <div class="product-card__body">
-          <h3>Sex &amp; Intimacy in Pregnancy Guide</h3>
-          <p class="product-card__meta">Editable · Canva · Professional</p>
-          <p>A respectful, informational guide for professionals supporting client conversations.</p>
-          <a href="resources/sex-and-intimacy-in-pregnancy.html" class="product-card__cta">View Resource</a>
+          <h3>Hospital Bag Checklist</h3>
+          <p class="product-card__meta">11 Pages · PLR · Canva Free</p>
+          <p>A ready-to-use checklist for mom, baby, and partner.</p>
+          <a href="resources/hospital-bag-checklist.html" class="product-card__cta">View Resource</a>
         </div>
       </article>
 
-      <article class="product-card reveal" style="justify-content:center;text-align:center;padding:2.5rem 1.8rem">
-        <span class="eyebrow">More Coming</span>
-        <h3 style="font-family:var(--font-serif);font-weight:500;font-size:1.4rem;margin-bottom:1rem">Explore the full collection</h3>
-        <p style="margin-bottom:1.5rem">Discover every WithMomma resource on Etsy — editable, professional, and made for the work you do.</p>
-        <a href="shop.html" class="btn btn--outline">Visit the Etsy Shop</a>
-      </article>
+    </div>
+
+    <div class="btn-row btn-row--center" style="margin-top:3rem">
+      <a href="resources/" class="btn btn--outline">View All 14 Resources</a>
     </div>
   </div>
 </section>
@@ -530,8 +526,7 @@
   <div class="container">
     <div class="footer__grid">
       <div class="footer__brand">
-        <span class="script">with</span>
-        <strong>momma</strong>
+        <span class="script">with</span><strong>momma</strong>
         <p>Pregnancy Education Resources for Professionals. Thoughtfully designed for midwives, doulas, and maternal wellness professionals.</p>
         <div class="footer__social" style="margin-top:1.5rem">
           <a href="https://www.instagram.com/with.momma" aria-label="WithMomma on Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
@@ -558,8 +553,10 @@
         <h4>Shop</h4>
         <ul>
           <li><a href="shop.html">Shop WithMomma on Etsy</a></li>
+          <li><a href="resources/">All 14 Resources</a></li>
+          <li><a href="resources/knowing-the-best-time-to-get-pregnant.html">Knowing the Best Time</a></li>
           <li><a href="resources/healthy-pregnancy-planning-ebook.html">Healthy Pregnancy Planning</a></li>
-          <li><a href="resources/early-signs-of-pregnancy-ebook.html">Early Signs of Pregnancy</a></li>
+          <li><a href="resources/the-first-trimester-ebook.html">The First Trimester</a></li>
           <li><a href="resources/pregnancy-nutrition-guide.html">Pregnancy Nutrition Guide</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
