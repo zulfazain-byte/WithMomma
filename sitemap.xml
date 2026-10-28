@@ -4,6 +4,7 @@
   <!-- ============ MAIN PAGES ============ -->
   <url><loc>[WITHMOMMA DOMAIN]/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>[WITHMOMMA DOMAIN]/shop/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>[WITHMOMMA DOMAIN]/professional-resources/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>[WITHMOMMA DOMAIN]/pregnancy-resources/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>[WITHMOMMA DOMAIN]/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -13,6 +14,9 @@
 
   <!-- ============ CATEGORY PAGES ============ -->
   <url><loc>[WITHMOMMA DOMAIN]/pregnancy-planning/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/early-pregnancy/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/pregnancy-nutrition/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/prenatal-education/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>[WITHMOMMA DOMAIN]/midwife-resources/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>[WITHMOMMA DOMAIN]/doula-resources/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>[WITHMOMMA DOMAIN]/pregnancy-health-coach-resources/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -32,6 +36,14 @@
   <url><loc>[WITHMOMMA DOMAIN]/resources/hospital-bag-checklist/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>[WITHMOMMA DOMAIN]/resources/when-labor-begins/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>[WITHMOMMA DOMAIN]/resources/sex-and-intimacy-in-pregnancy/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ============ BLOG (if created) ============ -->
+  <url><loc>[WITHMOMMA DOMAIN]/blog/what-is-preconception-health/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/blog/before-trying-to-conceive/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/blog/early-signs-of-pregnancy/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/blog/pregnancy-nutrition-basics/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/blog/pregnancy-education-resources-for-midwives/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/blog/pregnancy-resources-for-doulas/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- ============ LEGAL ============ -->
   <url><loc>[WITHMOMMA DOMAIN]/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
