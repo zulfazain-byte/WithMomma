@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>[WITHMOMMA DOMAIN]/</loc><priority>1.0</priority></url>
-  <url><loc>[WITHMOMMA DOMAIN]/professional-resources/</loc><priority>0.9</priority></url>
-  <url><loc>[WITHMOMMA DOMAIN]/pregnancy-resources/</loc><priority>0.9</priority></url>
-  <url><loc>[WITHMOMMA DOMAIN]/shop/</loc><priority>0.9</priority></url>
-  <url><loc>[WITHMOMMA DOMAIN]/blog/</loc><priority>0.8</priority></url>
-  <url><loc>[WITHMOMMA DOMAIN]/about/</loc><priority>0.8</priority></url>
-  <url><loc>[WITHMOMMA DOMAIN]/free-resources/</loc><priority>0.7</priority></url>
-  <url><loc>[WITHMOMMA DOMAIN]/contact/</loc><priority>0.6</priority></url>
+
+  <!-- ============ MAIN PAGES ============ -->
+  <url><loc>[WITHMOMMA DOMAIN]/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/shop/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/professional-resources/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/pregnancy-resources/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/about/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/free-resources/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/contact/</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+
+  <!-- ============ CATEGORY PAGES ============ -->
+  <url><loc>[WITHMOMMA DOMAIN]/pregnancy-planning/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/midwife-resources/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/doula-resources/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/pregnancy-health-coach-resources/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ============ PRODUCTS (14) ============ -->
+  <url><loc>[WITHMOMMA DOMAIN]/resources/knowing-the-best-time-to-get-pregnant/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/healthy-pregnancy-planning-ebook/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/early-signs-of-pregnancy-ebook/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/the-first-trimester-ebook/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/the-second-trimester-ebook/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/the-third-trimester-ebook/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/pregnancy-nutrition-guide/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/pregnancy-without-anxiety-guide/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/baby-growth-week-by-week/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/weekly-pregnancy-planner/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/pregnancy-checklist-and-planner/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/hospital-bag-checklist/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/when-labor-begins/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/resources/sex-and-intimacy-in-pregnancy/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- ============ LEGAL ============ -->
+  <url><loc>[WITHMOMMA DOMAIN]/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/terms/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/disclaimer/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>[WITHMOMMA DOMAIN]/license/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
 </urlset>
