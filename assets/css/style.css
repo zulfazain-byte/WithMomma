@@ -417,3 +417,28 @@ p{color:var(--ink-soft)}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .skip-link{position:absolute;top:-100px;left:1rem;background:var(--pink);color:#fff;padding:.7rem 1.2rem;border-radius:0 0 6px 6px;z-index:1000;font-size:.85rem;transition:top .3s}
 .skip-link:focus{top:0}
+
+/* =========================================
+   LOGO OVERRIDES
+   ========================================= */
+.nav__logo img {
+  height: 48px; /* Tinggi logo di header */
+  width: auto;
+  display: block;
+  border-radius: 6px; /* Membuat sudut sedikit melengkung */
+}
+
+.footer__brand img {
+  height: 64px; /* Tinggi logo di footer */
+  width: auto;
+  display: block;
+  margin-bottom: 1.25rem;
+  border-radius: 6px;
+}
+
+/* Responsif untuk mobile */
+@media (max-width: 768px) {
+  .nav__logo img {
+    height: 40px;
+  }
+}
